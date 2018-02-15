@@ -30,6 +30,10 @@ An image & video picker supporting multiple selection and several customizations
 
 ###### Using CocoaPods
 ```ruby
+pod 'GMImagePicker', '~> 0.0.2’
+
+## or
+
 pod 'GMImagePicker', :git => 'https://github.com/BhaumikSurani/GMImagePicker.git'
 ```
 
