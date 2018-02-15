@@ -86,10 +86,11 @@
     _navigationController.toolbar.translucent = YES;
     _navigationController.toolbar.barTintColor = _toolbarBarTintColor;
     _navigationController.toolbar.tintColor = _toolbarTintColor;
+    
     @try {
         [(UIView*)[_navigationController.toolbar.subviews objectAtIndex:0] setAlpha:0.75f];  // URGH - I know!
     } @catch (NSException *exception) {
-        NSLog(@"Exception = %@", exception);
+        NSLog(@"Exception at [_navigationController.toolbar.subviews objectAtIndex:0] = %@", exception);
     }
     
     _navigationController.navigationBar.backgroundColor = _navigationBarBackgroundColor;
