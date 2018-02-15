@@ -30,7 +30,7 @@ An image & video picker supporting multiple selection and several customizations
 
 ###### Using CocoaPods
 ```ruby
-pod 'GMImagePicker', '~> 0.0.2'
+pod 'GMImagePicker', :git => 'https://github.com/BhaumikSurani/GMImagePicker.git'
 ```
 
 If you don't know yet what CocoaPods is, you should ASAP. It is the standard dependency manager for iOS projects. You can read a good tutorial by [Ray Wenderlich here](http://www.raywenderlich.com/64546/introduction-to-cocoapods-2) 
