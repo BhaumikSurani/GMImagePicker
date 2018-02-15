@@ -123,6 +123,15 @@ Before presenting the picker, you can customize some of its properties
     
     //Select the media types you want to show and filter out the rest
     picker.mediaTypes = @[@(PHAssetMediaTypeImage)];
+        
+    //Set Maximum number of image or video can user select
+    picker.maxNumberOfAssset = 10;
+    
+    //if maximum number of asset is video so for Max Message
+    picker.isVideo = YES;
+    
+    //when back user from selected media is selected if you want to unselect when back
+    picker.isEverytimeRemoveSelectedCell = YES;
 
     //UI color & text customizations
     picker.pickerBackgroundColor = [UIColor blackColor];
